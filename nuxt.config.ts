@@ -214,6 +214,7 @@ export default defineNuxtConfig({
     allowedPublisherId: process.env.ALLOWED_PUBLISHER_ID,
     private: {
       githubToken: process.env.GITHUB_TOKEN,
+      botApiToken: process.env.BOT_API_TOKEN,
     },
     public: {
       apiBaseUrl:
